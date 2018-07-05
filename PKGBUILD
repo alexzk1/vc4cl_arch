@@ -9,8 +9,7 @@ arch=('arm' 'armv6h')
 url="git://github.com/doe300/VC4CL"
 
 license=('MIT')
-depends=(VC4C opencl-headers)
-optdepends(ocl-icd)
+depends=(VC4C opencl-headers ocl-icd)
 makedepends=(cmake)
 source=(git://github.com/doe300/VC4CL)
         
