@@ -11,7 +11,7 @@ url="git://github.com/doe300/VC4CL"
 license=('MIT')
 depends=(VC4C opencl-headers ocl-icd)
 makedepends=(cmake)
-source=(git://github.com/alexzk1/VC4CL)
+source=(git://github.com/doe300/VC4CL)
         
 md5sums=('SKIP')
 
