@@ -6,7 +6,7 @@ pkgdesc="OpenCL implementation running on the VideoCore IV GPU of the Raspberry 
 
 provides=('VC4CL')
 arch=('arm' 'armv6h')
-url="git://github.com/alexzk1/VC4CL"
+url="git://github.com/doe300/VC4CL"
 
 license=('MIT')
 depends=(VC4C opencl-headers ocl-icd)
