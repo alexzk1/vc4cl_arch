@@ -1,5 +1,5 @@
 # Contributor: Oleksiy Zakharov <alexzkhr@gmail.com>
-pkgname=VC4C
+pkgname=VC4CL
 pkgver=0.4.0
 pkgrel=2
 pkgdesc="OpenCL implementation running on the VideoCore IV GPU of the Raspberry Pi models"
