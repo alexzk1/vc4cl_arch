@@ -18,7 +18,7 @@ md5sums=('SKIP')
 
 build() {    
   cd ${srcdir}/VC4CL
-  cmake -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_DEB_PACKAGE=OFF -DVC4C_HEADER_PATH=/usr/include/vc4cc/VC4C.h -DVC4CC_LIBRARY=/usr/lib/libVC4CC.so
+  cmake -DREGISTER_POKE_KERNELS=OFF -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_DEB_PACKAGE=OFF -DVC4C_HEADER_PATH=/usr/include/vc4cc/VC4C.h -DVC4CC_LIBRARY=/usr/lib/libVC4CC.so
   make || return 1
 }
 
