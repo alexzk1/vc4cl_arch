@@ -16,7 +16,7 @@ You must have it avail at runtime, so embedded opencl code in your program will 
 
 So working chain is:
 
-1. You embedd opencl code in your program.
+1. You embedd opencl code in your program (it is C program called "kernel").
 2. That code is directed to opencl.
 3. Opencl directs it to backend (this package).
 4. Backend directs it to gpu compiler (vc4c).
