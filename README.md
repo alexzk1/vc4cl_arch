@@ -21,3 +21,6 @@ So working chain is:
 3. Opencl directs it to backend (this package for raspbery-pi or CUDA on desktop).
 4. Backend directs it to gpu compiler (vc4c).
 5. Compiler produces code at runtime of your program, and it is executed by this backend.
+
+
+There is another option. You can install compiler on your x86 desktop and produce already compiled kernels as binary blobs effectively skipping 1-4, which you will load manually. If you want do so, edit PKGBUILD and disable dependency.
